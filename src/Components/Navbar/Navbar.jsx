@@ -4,6 +4,7 @@ import { FaShoppingBag } from 'react-icons/fa';
 import { FaHeart } from "react-icons/fa6";
 import { IoIosMenu } from 'react-icons/io';
 import { TbMenu3 } from 'react-icons/tb';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -23,7 +24,7 @@ window.addEventListener('scroll',handelscroll)
     <header className={`bg-white fixed top-0 right-0 left-0 z-50 ${isScroled?'shadow-lg':""} `}>
         {/* logo-section */}
         <nav className='container mx-auto px-10 md:h-[20vh] h-[12vh] flex items-center py-5 justify-between '>
-            <a href="" className='text-3xl font-semibold'> Gr<span className='text-orange-500'>O</span>cify</a>
+            <Link to="/" className='text-3xl font-semibold'> Gr<span className='text-orange-500'>O</span>cify</Link>
 
             {/* desktop menu */}
             <ul className='md:flex gap-4 items-center hidden'>

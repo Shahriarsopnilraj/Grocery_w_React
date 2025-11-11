@@ -6,8 +6,7 @@ const Footer = () => {
     <footer className="bg-zinc-100 py-20">
       <div className="max-w-[1400px] mx-auto px-10 gap-y-10 flex flex-wrap">
         <div className="flex-1 basis-[300px]">
-          <a href="" className="text-3xl font-semibold">
-            {" "}
+          <a href="#" className="text-3xl font-semibold">
             Gr<span className="text-orange-500">O</span>cify
           </a>
           <p className="text-zinc-600 mt-6 max-w-[350px]">
